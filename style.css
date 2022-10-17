@@ -1,0 +1,175 @@
+
+* {
+    box-sizing: border-box;
+    /*NOSE PERO ES BUENO HACERLO*/
+    scroll-behavior:smooth;
+    
+}
+
+html{
+    scroll-behavior:smooth;
+
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    /*REINICIA A ROBOTO Y LA OTRA, NOSE PERO ES MEJOR HACERLO*/
+    margin: 0;
+    /*NOSE PERO ES BUENO HACERLO*/
+    
+}
+.todo{
+
+    flex-direction: column;
+    /*QUEDE CENTRADO EN COLUMNAS*/
+    align-items: center;
+    /*QUEDE CENTRADO EN EL CENTRO*/
+
+}
+/*TAMAÑO DE LETRA RELATIVA*/
+p {
+    font-size: 1em;
+}
+
+
+
+@media (max-width: 900px) {
+
+
+.nav{
+    margin-top: 15px;
+    height: 60px;
+    display: flex;
+    /*PARA QUE QUEDE FIJO*/
+    flex-direction: column;
+    /*QUEDE CENTRADO EN COLUMNAS*/
+    align-items: center;
+    /*QUEDE CENTRADO EN EL CENTRO*/
+    text-align: center;
+    
+}
+
+.redes{
+    margin: 30px; /* Separación arriba y abajo de div */
+    display: flex;
+    /*PARA QUE QUEDE FIJO*/
+    flex-direction: column;
+    /*QUEDE CENTRADO EN COLUMNAS*/
+    align-items: center;
+    /*QUEDE CENTRADO EN EL CENTRO*/
+    text-align: center;
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.forgot{
+    margin-left: 3vw;
+    margin-top: 9vw;
+    color: black;
+    
+}
+
+button{
+    width: 90vw ;
+    height: 50px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    margin: 10px;
+    
+}
+.facebook{
+    background-color: rgb(59, 89, 152);
+    color: white;
+}
+
+.apple{
+    background-color: black;
+    color: white;
+
+}
+
+.google {
+    background-color: white;
+}
+
+
+img{
+    margin-right: 10px;
+}
+
+.casillas{
+    /*margin-left: -30%;*/
+
+}
+
+.casilla{
+    height: 12vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid black;
+    border: 1px solid gray;
+}
+
+
+
+.casilla{
+    width: 80vw;
+}
+form{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.forget{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regi{
+    color: gray;
+    background-color: white;
+    border: 1px solid grey;
+}
+button:hover {
+    border: 4px solid black;
+}
+.apple:hover{
+    border: 4px solid green;
+}
+.rememberr{
+    margin-top: 5px;
+    height: 6vh;
+}
+.login1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1ed760 ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    width: 50vw;
+    height: 6vh;
+    text-align: center;
+}
+
+
+
